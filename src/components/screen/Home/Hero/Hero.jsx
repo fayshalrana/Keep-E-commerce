@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import bannerImg from '../../../../assets/images/banner.webp'
-import underLineImg from '../../../../assets/images/sectionLine.png'
+import underLineImg from '../../../../assets/images/sectionLine.webp'
 import Button from "../../../shared/Button/Button";
 const Hero = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import SectionHeader from '../../../shared/SectionHeader/SectionHeader';
 import LeaderCart from './LeaderCart';
-import leader1 from '../../../../assets/images/leaders/leader1.png';
-import leader2 from '../../../../assets/images/leaders/leader2.png';
-import leader3 from '../../../../assets/images/leaders/leader3.png';
+import leader1 from '../../../../assets/images/leaders/leader1.webp';
+import leader2 from '../../../../assets/images/leaders/leader2.webp';
+import leader3 from '../../../../assets/images/leaders/leader3.webp';
 
 const teamData = [
   { img: leader1, name: 'Brooklyn Simmons', ocap: 'Project Manager' },

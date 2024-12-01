@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import blogImg from '../../../../src/assets/images/blogGrid.png'
-import userImg from '../../../../src/assets/images/user.jpg'
+import blogImg from '../../../../src/assets/images/aboutUs.webp'
+import userImg from '../../../../src/assets/images/user.webp'
 import { BsDot } from "react-icons/bs";
 const ListItem = ({ isFirst }) => {
     return (

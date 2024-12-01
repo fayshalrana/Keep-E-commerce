@@ -10,13 +10,13 @@ const CheckOutAction = () => {
             <div className="container_fluid">
                 <div className="lg:px-10">
                     {/* Alert message  */}
-                    <div id="alert-2" class="flex items-center py-2 md:py-4 px-2 md:px-7 mb-4 rounded-lg bg-[#F2F5FF] " role="alert">
-                        <span class="sr-only">Info</span>
-                        <div class="ms-3 text-sm font-medium">
+                    <div id="alert-2" className="flex items-center py-2 md:py-4 px-2 md:px-7 mb-4 rounded-lg bg-[#F2F5FF] " role="alert">
+                        <span className="sr-only">Info</span>
+                        <div className="ms-3 text-sm font-medium">
 
-                            <p class="text-[12px] lg:text-[16px] font-[400] leading-[24px] -tracking-[.3px] text-dark ">Have a coupon?<a className='no-underline text-blue-600' href="#"> Click to enter your code</a>.</p>
+                            <p className="text-[12px] lg:text-[16px] font-[400] leading-[24px] -tracking-[.3px] text-dark ">Have a coupon?<a className='no-underline text-blue-600' href="#"> Click to enter your code</a>.</p>
                         </div>
-                        <button type="button" class="ms-auto -mx-1.5 -my-1.5 bg-red-50 text-dark rounded-lg focus:ring-2 focus:ring-red-400 p-1.5 hover:text-red-300 inline-flex items-center justify-center h-8 w-8 text-[20px]">
+                        <button type="button" className="ms-auto -mx-1.5 -my-1.5 bg-red-50 text-dark rounded-lg focus:ring-2 focus:ring-red-400 p-1.5 hover:text-red-300 inline-flex items-center justify-center h-8 w-8 text-[20px]">
                             <RxCrossCircled />
                         </button>
                     </div>
@@ -48,7 +48,7 @@ const CheckOutAction = () => {
                             <div className="mt-[55px]">
                                 <h2 className='text-[26px] lg:text-[32px] font-[600] leading-[42px] -tracking-[.5px] text-black'>Payment</h2>
                                 <div className="mt-8">
-                                    <Payment/>
+                                    <Payment />
                                 </div>
                             </div>
                         </div>

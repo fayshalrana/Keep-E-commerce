@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsDot } from "react-icons/bs";
-import userImg from '../../../../assets/images/user.jpg'
+import userImg from '../../../../assets/images/user.webp'
 
-const BlogItem = ({isFirst, blogImg}) => {
+const BlogItem = ({ isFirst, blogImg }) => {
     return (
-        <div className= {`group ${isFirst ? 'md:col-span-2 ' : ''}`}>
+        <div className={`group ${isFirst ? 'md:col-span-2 ' : ''}`}>
             <div className={`${isFirst ? "h-[200px] md:h-[300px] xl:h-[500px]" : "h-[270px]"} w-full`}>
                 <Link to="/blog/Details"><img className='w-full h-full object-cover' src={blogImg} alt="blog img" /></Link>
             </div>
@@ -20,11 +20,11 @@ const BlogItem = ({isFirst, blogImg}) => {
                 <p className='text-[16px] font-[400] leading-6 -tracking-[.3px] text-dark'>Until recently, the prevailing view assumed lorem ipsum  was born as a nonsense text nothing Before & After magazine.</p>
             </div>
             <div className="flex gap-[10px] items-center">
-                    <div className="w-[40px] h-[40px] overflow-hidden rounded-complete">
-                        <Link to="#"><img className='w-full h-full object-cover' src={userImg} alt="admin image " /></Link>
-                    </div>
-                    <Link to='#'><h3 className='text-[16px] font-[500] leading-6 -tracking-[.3px] text-dark'>Cameron Williamson</h3></Link>
+                <div className="w-[40px] h-[40px] overflow-hidden rounded-complete">
+                    <Link to="#"><img className='w-full h-full object-cover' src={userImg} alt="admin image " /></Link>
                 </div>
+                <Link to='#'><h3 className='text-[16px] font-[500] leading-6 -tracking-[.3px] text-dark'>Cameron Williamson</h3></Link>
+            </div>
         </div>
     )
 }

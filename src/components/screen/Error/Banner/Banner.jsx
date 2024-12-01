@@ -1,5 +1,5 @@
 import React from 'react'
-import errorPage from '../../../../assets/images/errorPage.png'
+import errorPage from '../../../../assets/images/errorPage.webp'
 import { IoSearch } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 const Banner = () => {
@@ -16,14 +16,14 @@ const Banner = () => {
                             Wrong Turn. Let's Get You Back
                             on Track!</h2>
                         <p className='text-[16px] font-[400] leading-[24px] -tracking-[.3px] text-dark'>
-                        Sorry, the page you are looking for doesn’t exist or has been moved. Try searching out site:
+                            Sorry, the page you are looking for doesn’t exist or has been moved. Try searching out site:
                         </p>
                         <div className="flex gap-[14px] flex-col lg:flex-row items-center mt-[43px]">
                             <Link to='/' className='py-4 px-5 rounded bg-primary flex justify-center items-center text-[16px] lg:text-[18px] font-[500] leading-[24px] -tracking-[.2px] text-white w-full lg:w-auto whitespace-nowrap hover:text-primary hover:bg-white hover:border-blue-600 border duration-200'>Back to Home</Link>
                             <span>or</span>
                             <div className="w-full ml-auto px-[14px] border border-blue-200 flex justify-between items-center rounded-md">
                                 <input className='w-full py-[17px] focus:outline-none' type="text" placeholder='Search page name' />
-                               <button type='button'><IoSearch className='text-[20px] text-gray-400'/></button>
+                                <button type='button'><IoSearch className='text-[20px] text-gray-400' /></button>
                             </div>
                         </div>
                     </div>

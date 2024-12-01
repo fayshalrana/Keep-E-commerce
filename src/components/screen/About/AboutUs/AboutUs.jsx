@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../../../shared/Button/Button'
-import aboutUsImg from '../../../../assets/images/aboutUs.png'
-import missionImg from '../../../../assets/images/Misson.png'
+import aboutUsImg from '../../../../assets/images/aboutUs.webp'
+import missionImg from '../../../../assets/images/Misson.webp'
 const AboutUs = () => {
   return (
     <section className='md:pt-10 lg:pt-16 pb-5 md:px-[50px] lg:px-[100px]'>

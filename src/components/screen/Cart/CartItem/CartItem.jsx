@@ -2,7 +2,7 @@ import React from 'react'
 import { RxCrossCircled } from "react-icons/rx";
 import { IoMdAdd } from "react-icons/io";
 import { FiMinus } from "react-icons/fi";
-import productImg from '../../../../assets/images/product.png'
+import productImg from '../../../../assets/images/product.webp'
 const CartItem = () => {
     return (
         <div className="py-6 border-b-2 flex">

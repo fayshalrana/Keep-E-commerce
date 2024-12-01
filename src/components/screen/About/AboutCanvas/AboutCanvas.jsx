@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutCanvas from '../../../../assets/images/aboutCanvas.png'
+import aboutCanvas from '../../../../assets/images/aboutCanvas.webp'
 const AboutCanvas = () => {
   return (
     <section>

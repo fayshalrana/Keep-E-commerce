@@ -5,7 +5,7 @@ import { CgShoppingCart } from "react-icons/cg";
 import { FaRegHeart } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { FiMenu } from "react-icons/fi";
-import logo from '../../../assets/images/logo.png'
+import logo from '../../../assets/images/logo.webp'
 import LoginForm from "../../screen/Login/LoginForm";
 import { useState } from "react";
 import RegisterForm from "../../screen/Register/RegisterForm";
@@ -115,8 +115,6 @@ const handleOthers = ()=>{
                   <li><Link to='/contact' className="text-[14px] font-semi text-dark w-full p-1 hover:bg-blue-400 hover:text-white  block">Contact us</Link></li>
                   <li><Link to='/blog-list' className="text-[14px] font-semi text-dark w-full p-1 hover:bg-blue-400 hover:text-white  block">Blog List</Link></li>
                   <li><Link to='/error' className="text-[14px] font-semi text-dark w-full p-1 hover:bg-blue-400 hover:text-white  block">Error page</Link></li>
-                  <li><Link to='#' className="text-[14px] font-semi text-dark w-full p-1 hover:bg-blue-400 hover:text-white  block">page 4</Link></li>
-                  <li><Link to='#' className="text-[14px] font-semi text-dark w-full p-1 hover:bg-blue-400 hover:text-white  block">page 5</Link></li>
                 </ul>
               </div></li>
             <li className="text-[16px] leading-[24px] font-[500] -tracking-[.3px] flex items-center gap-1 text-black cursor-pointer group relative">Others <IoIosArrowDown />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoCloseOutline } from "react-icons/io5";
 
-import productImg from '../../../../assets/images/product.png'
+import productImg from '../../../../assets/images/product.webp'
 const YourItem = () => {
     return (
         <div className="flex items-center gap-6 w-full py-5 border-b-2">

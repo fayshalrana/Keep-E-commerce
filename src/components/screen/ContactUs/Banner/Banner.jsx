@@ -1,5 +1,5 @@
 import React from 'react'
-import contactBannerImg from '../../../../assets/images/contactBanner.png'
+import contactBannerImg from '../../../../assets/images/contactBanner.webp'
 const Banner = () => {
     return (
         <section className='py-[30px] lg:py-[73px]'>

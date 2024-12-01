@@ -1,8 +1,8 @@
 import React from 'react'
-import social from '../../../../assets/images/social.png'
+import social from '../../../../assets/images/social.webp'
 import { Link } from 'react-router-dom'
 import { FaInstagram } from "react-icons/fa";
-const InstaItem = ({socialImg}) => {
+const InstaItem = ({ socialImg }) => {
   return (
     <div className='h-[298px] relative group'>
       <img className='w-full h-full object-cover' src={socialImg} alt="social image" />

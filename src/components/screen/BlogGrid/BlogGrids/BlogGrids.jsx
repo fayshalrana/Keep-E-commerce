@@ -1,5 +1,5 @@
 import React from 'react'
-import blogGrid from '../../../../assets/images/blogGrid.png'
+import blogGrid from '../../../../assets/images/aboutUs.webp'
 const BlogGrids = () => {
   return (
     <div>
