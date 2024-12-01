@@ -1,0 +1,104 @@
+.thumbnail-slider-wrap{
+    position: relative;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.thumbnail-slider-wrap .slick-track{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+.thumbnail-slider-wrap .thumbItem{
+ height:3.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Slick Thumbnail Image Styles */
+.thumbnail-slider-wrap .slick-slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .thumbnail-slider-wrap .slick-current {
+      width: 5.7rem !important;
+      height: 5rem;
+    }
+.thumbnail-slider-wrap .slick-current .thumbItem{
+    width: 5.7rem;
+    height: 4.8rem;
+} 
+
+
+  /* Center Bottom Positioning for Main Slider Images */
+  .slick-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  
+  /* Custom Arrows Styles (adjust as needed) */
+  .custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    color: gray;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .custom-arrow.prev {
+    left: -40px;
+  }
+  
+  .custom-arrow.next {
+    right: -40px;
+  }
+  @media (min-width:320px) and (max-width: 767.99px) {
+    .thumbnail-slider-wrap {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .thumbnail-slider-wrap .thumbItem {
+        height: 2.5rem;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100%;
+    }
+    .thumbnail-slider-wrap .slick-current {
+        width: 4.7rem !important;
+        height: 4rem;
+    }
+    .thumbnail-slider-wrap .slick-current .thumbItem {
+        width: 2.7rem;
+        height: 3.8rem;
+    }
+  }
+  @media (min-width:768px) and (max-width: 1023.99px) {
+    .thumbnail-slider-wrap {
+        position: relative;
+        width: 40%;
+        margin: 20px auto;
+    }
+    .thumbnail-slider-wrap .thumbItem {
+        height: 2.5rem;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100%;
+    }
+    .thumbnail-slider-wrap .slick-current {
+        width: 4.7rem !important;
+        height: 4rem;
+    }
+    .thumbnail-slider-wrap .slick-current .thumbItem {
+        width: 2.7rem;
+        height: 3.8rem;
+    }
+  }
