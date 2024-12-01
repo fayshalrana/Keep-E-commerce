@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
       <div className="relative">
         <div className="w-full h-[360px] md:h-auto rounded-t-[50%] overflow-hidden">
-          <img src={bannerImg} alt="banner image" />
+          <img className="w-full" src={bannerImg} alt="banner image" />
         </div>
         <div className="w-[162px] h-[162px] rounded-complete border-[2rem]  border-primary absolute -top-8 md:-top-[26px] lg:top-0 md:-left-12 lg:left-0"></div>
         <div className="w-[162px] h-[162px] rounded-complete bg-gray-200 absolute bottom-[1.5rem] md:-bottom-[2.5rem] -right-[67px] border-gray-200 -z-10"></div>
